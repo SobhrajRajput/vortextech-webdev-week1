@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <meta name="description" content="Personal portfolio showcasing my background, education, projects, and contacts.">
+    <!-- Google Fonts: Outfit for headings, Inter for body text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-elements">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-content">
+            <div class="logo">Port<span>folio</span>.</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Background</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section-reveal">
+        <div class="hero-content">
+            <h2 class="greeting">Hello, I'm</h2>
+            <h1 class="name">Sobhraj Rajput</h1>
+            <h3 class="title">Software Engineer</h3>
+            <p class="hero-desc">Computer Science graduate from FAST-NUCES Karachi with experience in software development, web applications, and backend systems. Skilled in Java, Spring Boot, React.js, JavaScript, Python, MySQL, and REST APIs. Passionate about building scalable software solutions, solving real-world problems, and continuously learning modern technologies.</p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn primary-btn">View My Work</a>
+                <a href="#contact" class="btn secondary-btn">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-image-container">
+            <!-- A stylish CSS placeholder shape for an image -->
+            <div class="profile-placeholder">
+                <div class="glass-overlay"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Background/About Section -->
+    <section id="about" class="about section-reveal">
+        <h2 class="section-title">My Background</h2>
+        <div class="about-container glass-card">
+            <div class="about-text">
+                <p>I am a Computer Science graduate from FAST-NUCES Karachi with a strong passion for software engineering and application development. My experience includes building web applications, backend systems, RESTful APIs, and database-driven solutions using modern technologies.</p>
+                <p>I enjoy solving challenging problems through clean and efficient code. My interests include backend development, full-stack web development, software architecture, and emerging technologies such as Artificial Intelligence and Cloud Computing.</p>
+                <div class="skills">
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">Spring Boot</span>
+                    <span class="skill-tag">C#</span>
+                    <span class="skill-tag">ASP.NET MVC</span>
+                    <span class="skill-tag">React.js</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">REST APIs</span>
+                    <span class="skill-tag">Git & GitHub</span>
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education section-reveal">
+        <h2 class="section-title">Education</h2>
+        <div class="timeline-item glass-card">
+    <div class="timeline-dot"></div>
+    <div class="timeline-content">
+        <h3 class="degree">Bachelor of Science in Computer Science</h3>
+        <h4 class="university">FAST-NUCES Karachi</h4>
+        <span class="date">2021 - 2025</span>
+        <p>
+            Relevant coursework: Data Structures & Algorithms, Software Engineering,
+            Database Systems, Operating Systems, Computer Networks,
+            Artificial Intelligence, and Web Development.
+        </p>
+    </div>
+</div>
+
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-reveal">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card glass-card">
+                <div class="project-img placeholder-img-1"></div>
+                <div class="project-info">
+                    <h3>EduMentor – AI-Powered University Assistance Platform (FYP)</h3>
+                    <p>Developed an AI-based academic support platform for students. 
+                        Designed and implemented REST APIs and database workflows. 
+                        Integrated intelligent features for automated academic assistance and improved user experience through smart recommendations.</p>
+                    <div class="project-tech">
+                        <span>Spring Boot</span>
+                        <span>React</span>
+                        <span>MYSQL</span>
+                    </div>
+                    <a href="#" class="project-link">View Project &rarr;</a>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card glass-card">
+                <div class="project-img placeholder-img-2"></div>
+                <div class="project-info">
+                    <h3>E-Commerce Backend</h3>
+                    <p> Developed secure REST APIs for an e-commerce platform using Spring Boot. 
+                        Implemented JWT-based authentication, product catalog management, shopping cart functionality, order processing, and admin APIs. </p>
+                    <div class="project-tech">
+                        <span>Java</span>
+                        <span>Spring Boot</span>
+                        <span>Spring Security</span>
+                        <span>JWT</span>
+                        <span>MYSQL</span>
+                    </div>
+                    <a href="#" class="project-link">View Project &rarr;</a>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-card glass-card">
+                <div class="project-img placeholder-img-3"></div>
+                <div class="project-info">
+                    <h3>Employee Management System</h3>
+                    <p> Developed a secure employee management application with CRUD operations, search and filtering, pagination, authentication, and role-based access control for Admin and User roles. </p>
+                    <div class="project-tech">
+                        <span>JAVA</span>
+                        <span>Spring Boot</span>
+                        <span>MYSQL</span>
+                        <span>REST APIs</span>
+                    </div>
+                    <a href="#" class="project-link">View Project &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-reveal">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info glass-card">
+                <h3>Let's build something amazing together.</h3>
+                <p>I'm currently open for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                <div class="contact-methods">
+                    <div class="method">
+                        <span class="icon">📧</span>
+                        <a href="sobhrajrathore@gmail.com">sobhrajrathore@gmail.com</a>
+                    </div>
+                    <div class="method">
+                        <span class="icon">📍</span>
+                        <span>Karachi, Pakistan</span>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-icon">GitHub</a>
+                    <a href="#" class="social-icon">LinkedIn</a>
+                    <a href="#" class="social-icon">Twitter</a>
+                </div>
+            </div>
+            <form class="contact-form glass-card" id="contactForm">
+                <div class="input-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required placeholder="Your Name">
+                </div>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required placeholder="example@gmail.com">
+                </div>
+                <div class="input-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" required placeholder="How can I help you?"></textarea>
+                </div>
+                <button type="submit" class="btn primary-btn submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Sobhraj Rajput. Built with modern web technologies.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
