@@ -1,4 +1,4 @@
-# Personal Portfolio Website
+#  Web Development Week 1 Project
 
 ## About This Project
 This project is a responsive personal portfolio website created as part of the Week 1 HTML and CSS task. It includes my introduction, skills, and contact information in a clean and simple design.
