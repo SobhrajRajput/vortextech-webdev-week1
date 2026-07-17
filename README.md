@@ -23,4 +23,4 @@ This project is a responsive personal portfolio website created as part of the W
 3. Open `index.html` in any web browser.
 4. The portfolio website will load successfully.
 
-## Project Structure
+
